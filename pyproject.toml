@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Donut-LLM-Tools"
+version = "24.05.27"
+description = "Tools for Creating Datasets and Models locally"
+readme = "README"
+authors = [{ name = "Gautham Nair", email = "gautham.nair.2005@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GPL v3 License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+dependencies = [
+    "CreateLLM",
+    "Wikipedia",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/gauthamnair2005/donut-llm-tools"
+
+[project.scripts]
+donutllmtools = "donutllmtools"

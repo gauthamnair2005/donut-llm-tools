@@ -1,0 +1,10 @@
+LICENSE
+README
+pyproject.toml
+src/donutllmtools.py
+src/Donut_LLM_Tools.egg-info/PKG-INFO
+src/Donut_LLM_Tools.egg-info/SOURCES.txt
+src/Donut_LLM_Tools.egg-info/dependency_links.txt
+src/Donut_LLM_Tools.egg-info/entry_points.txt
+src/Donut_LLM_Tools.egg-info/requires.txt
+src/Donut_LLM_Tools.egg-info/top_level.txt
