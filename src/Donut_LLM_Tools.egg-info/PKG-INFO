@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: Donut-LLM-Tools
-Version: 24.5.27.2
+Version: 24.5.27.3
 Summary: Tools for Creating Datasets and Models locally
 Author-email: Gautham Nair <gautham.nair.2005@gmail.com>
 License: MIT License
         
-        Copyright (c) [2024] [Gautham Nair]
+        Copyright (c) 2024 Gautham Nair
         
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
@@ -25,9 +25,8 @@ License: MIT License
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
 Project-URL: Homepage, https://github.com/gauthamnair2005/donut-llm-tools
-Keywords: feed,reader,tutorial
+Keywords: AI,trainer,dataset
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
@@ -38,7 +37,7 @@ Requires-Dist: Wikipedia
 # Donut LLM Tools
 Donut LLM Tools is a suite of two programs that helps you create dataset from wikipedia data and your own LLM with the created or already existing dataset.
 
-*Latest Version 24.05.27 Update 2*
+*Latest Version 24.05.27 Update 3*
 
 ## How to install, import and use DonutLLM?
 ### Installation
