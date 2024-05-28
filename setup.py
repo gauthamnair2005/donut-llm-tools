@@ -8,7 +8,7 @@ author = 'Gautham Nair'
 homepage = "https://github.com/gauthamnair2005/donut-llm-tools"
 
 setup(
-    name='GIUC',
+    name='Donut-LLM-Tools',
     # other arguments omitted
     long_description=long_description,
     long_description_content_type='text/markdown',

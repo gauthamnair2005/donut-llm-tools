@@ -1,6 +1,7 @@
 LICENSE
 README.md
 pyproject.toml
+setup.cfg
 setup.py
 src/donutllmtools.py
 src/Donut_LLM_Tools.egg-info/PKG-INFO

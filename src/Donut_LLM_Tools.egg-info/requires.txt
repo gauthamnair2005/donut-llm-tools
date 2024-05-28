@@ -1,6 +1,5 @@
-GIUC
-CreateLLM
-Wikipedia
+DonutLLMCore
+wikipedia
 
 [dev]
 black

@@ -1,6 +1,6 @@
 class Tools:
     def LLMCreator(): 
-        from createllm import CreateLLM
+        import DonutLLMCore
 
         print("AI/ML Model Trainer/Loader | DonutLLM Studio")
         while True:
@@ -11,11 +11,11 @@ class Tools:
             if choice == 1:
                 path = input("Enter the path of the dataset : ")
                 mx_itr = input("Enter the maximum number of iterations : ")
-                model = CreateLLM.GPTTrainer(path,max_iters=100)
+                model = DonutLLMCore.ModelTrainer(path,max_iters=100)
                 model = model.trainer()
             elif choice == 2:
                 path = input("Enter the path of the model : ")
-                model = CreateLLM.LLMModel(path)
+                model = DonutLLMCore.LLMModel(path)
                 while True:
                     prompt = input("Enter prompt : ")
                     if prompt == "exit" or prompt == "Exit" or prompt == "EXIT" or prompt == "quit" or prompt == "Quit" or prompt == "QUIT":
@@ -83,7 +83,7 @@ class HelpAndInfo:
 
     def about():
         print("DonutLLM Studio | AI/ML Model Trainer/Loader")
-        print("Version 24.05.28")
+        print("Version 24.05.29")
         print("Developed by Gautham Nair")
 
     def exit():

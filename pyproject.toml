@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Donut-LLM-Tools"
-version = "24.05.28"
+version = "24.05.29"
 description = "Tools for creating datasets, training and loading AI models"
 readme = "README.md"
 authors = [{email = "gautham.nair.2005@gmail.com"}]
@@ -17,19 +17,15 @@ classifiers = [
 ]
 keywords = ["AI", "ML", "Train", "Model", "Dataset"]
 dependencies = [
-    "GIUC",
-    "CreateLLM",
-    "Wikipedia"
+    "DonutLLMCore",
+    "wikipedia"
 ]
 requires-python = ">=3.9, <3.12"
 
 [project.optional-dependencies]
 dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
-
-[project.urls]
-Homepage = "https://github.com/gauthamnair2005/donut-llm-tools"
 [tool.bumpver]
-current_version = "24.05.28"
+current_version = "24.05.29"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"

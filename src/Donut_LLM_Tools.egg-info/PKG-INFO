@@ -1,7 +1,8 @@
 Metadata-Version: 2.1
 Name: Donut-LLM-Tools
-Version: 24.5.28
+Version: 24.5.29
 Summary: Tools for creating datasets, training and loading AI models
+Home-page: https://github.com/gauthamnair2005/donut-llm-tools
 Author: Gautham Nair
 Author-email: gautham.nair.2005@gmail.com
 License: MIT License
@@ -25,16 +26,14 @@ License: MIT License
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
-Project-URL: Homepage, https://github.com/gauthamnair2005/donut-llm-tools
 Keywords: AI,ML,Train,Model,Dataset
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Requires-Python: <3.12,>=3.9
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: GIUC
-Requires-Dist: CreateLLM
-Requires-Dist: Wikipedia
+Requires-Dist: DonutLLMCore
+Requires-Dist: wikipedia
 Provides-Extra: dev
 Requires-Dist: black; extra == "dev"
 Requires-Dist: bumpver; extra == "dev"
@@ -45,20 +44,20 @@ Requires-Dist: pytest; extra == "dev"
 # Donut LLM Tools
 Donut LLM Tools is a suite of two programs that helps you create dataset from wikipedia data and your own LLM with the created or already existing dataset.
 
-*Latest Version 24.05.28*
+*Latest Version 24.05.29*
 
 ## How to install, import and use DonutLLM?
 ### Installation
 * Before installing Donut LLM Tools, make sure you have Python `3.9` or later till Python `3.11`. *Note : Python `3.12` is not supported by PyTorch, hence Donut LLM Tools will also have trouble running in it.* 
 * The dependencies for installing Donut LLM Tools are:
-    1. CreateLLM (`pip install CreateLLM`)
-    2. torch (Required by CreateLLM)
+    1. DonutLLMCore (`pip install DonutLLMCore`)
+    2. torch (Required by DonutLLMCore)
     3. torchvision (Required by CreateLLM, PyTorch)
     4. torchaudio (Required by CreateLLM, PyTorch)
     5. Wikipedia
     
     *Note : You need to check [PyTorch](https://pytorch.org) website to find more about installation on devices with only CPU or with GPU. Donut LLM Tools support CPU, however it is very slow to train a model in CPU.*
-* After ensuring the installation of the above mentioned dependencies, do `pip install donutllmtools`.
+* After ensuring the installation of the above mentioned dependencies, do `pip install donut-llm-tools`.
 * You have now installed Donut LLM Tools in your device.
 
 ### Importing and Using

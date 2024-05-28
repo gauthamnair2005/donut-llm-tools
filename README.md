@@ -1,14 +1,14 @@
 # Donut LLM Tools
 Donut LLM Tools is a suite of two programs that helps you create dataset from wikipedia data and your own LLM with the created or already existing dataset.
 
-*Latest Version 24.05.28*
+*Latest Version 24.05.29*
 
 ## How to install, import and use DonutLLM?
 ### Installation
 * Before installing Donut LLM Tools, make sure you have Python `3.9` or later till Python `3.11`. *Note : Python `3.12` is not supported by PyTorch, hence Donut LLM Tools will also have trouble running in it.* 
 * The dependencies for installing Donut LLM Tools are:
-    1. CreateLLM (`pip install CreateLLM`)
-    2. torch (Required by CreateLLM)
+    1. DonutLLMCore (`pip install DonutLLMCore`)
+    2. torch (Required by DonutLLMCore)
     3. torchvision (Required by CreateLLM, PyTorch)
     4. torchaudio (Required by CreateLLM, PyTorch)
     5. Wikipedia
