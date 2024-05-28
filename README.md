@@ -14,7 +14,7 @@ Donut LLM Tools is a suite of two programs that helps you create dataset from wi
     5. Wikipedia
     
     *Note : You need to check [PyTorch](https://pytorch.org) website to find more about installation on devices with only CPU or with GPU. Donut LLM Tools support CPU, however it is very slow to train a model in CPU.*
-* After ensuring the installation of the above mentioned dependencies, do `pip install donutllmtools`.
+* After ensuring the installation of the above mentioned dependencies, do `pip install donut-llm-tools`.
 * You have now installed Donut LLM Tools in your device.
 
 ### Importing and Using
