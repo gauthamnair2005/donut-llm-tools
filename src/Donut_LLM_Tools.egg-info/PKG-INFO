@@ -1,8 +1,9 @@
 Metadata-Version: 2.1
 Name: Donut-LLM-Tools
-Version: 24.5.27.3
-Summary: Tools for Creating Datasets and Models locally
-Author-email: Gautham Nair <gautham.nair.2005@gmail.com>
+Version: 24.5.28
+Summary: Tools for creating datasets, training and loading AI models
+Author: Gautham Nair
+Author-email: gautham.nair.2005@gmail.com
 License: MIT License
         
         Copyright (c) 2024 Gautham Nair
@@ -25,23 +26,30 @@ License: MIT License
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
 Project-URL: Homepage, https://github.com/gauthamnair2005/donut-llm-tools
-Keywords: AI,trainer,dataset
+Keywords: AI,ML,Train,Model,Dataset
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
-Requires-Python: >=3.11
+Requires-Python: <3.12,>=3.9
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: GIUC
 Requires-Dist: CreateLLM
 Requires-Dist: Wikipedia
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
 
 # Donut LLM Tools
 Donut LLM Tools is a suite of two programs that helps you create dataset from wikipedia data and your own LLM with the created or already existing dataset.
 
-*Latest Version 24.05.27 Update 3*
+*Latest Version 24.05.28*
 
 ## How to install, import and use DonutLLM?
 ### Installation
-* Before installing Donut LLM Tools, make sure you have Python `3.9` or later till Python `3.11`. *Note : Python `3.12` is not supported by PyTorch, hence Donut LLM Tools will also have troubles running.* 
+* Before installing Donut LLM Tools, make sure you have Python `3.9` or later till Python `3.11`. *Note : Python `3.12` is not supported by PyTorch, hence Donut LLM Tools will also have trouble running in it.* 
 * The dependencies for installing Donut LLM Tools are:
     1. CreateLLM (`pip install CreateLLM`)
     2. torch (Required by CreateLLM)

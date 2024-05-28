@@ -1,5 +1,5 @@
 LICENSE
-README
+README.md
 pyproject.toml
 setup.py
 src/donutllmtools.py

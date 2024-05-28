@@ -83,7 +83,7 @@ class HelpAndInfo:
 
     def about():
         print("DonutLLM Studio | AI/ML Model Trainer/Loader")
-        print("Version 24.05.27.2")
+        print("Version 24.05.28")
         print("Developed by Gautham Nair")
 
     def exit():
