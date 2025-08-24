@@ -37,8 +37,9 @@ HelpAndInfo.about() # To view details of the program.
 
 HelpAndInfo.create_llm() # Also create LLM from HelpAndInfo class.
 
-HelpAndInfo.create_dataset() # ALso create dataset from HelpAndInfo class.
+HelpAndInfo.create_dataset() # Also create dataset from HelpAndInfo class.
 
 HelpAndInfo.main() # To get a menu based interface for dataset creation or model load/creation.
 ```
+
 The above code uses `HelpAndInfo` class which has the same functions from Tools class as well as help functions.
